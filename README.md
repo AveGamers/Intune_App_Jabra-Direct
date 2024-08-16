@@ -12,13 +12,13 @@
 > JabraDirectSetup.exe /uninstall /quiet /norestart
 
 ## Detection rules
-> Rule type: Registry
-> Key Path: HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Jabra\Direct
-> Value name: Version
-> Detection method: Version comparison
-> Operator: Greater than or equal to
-> Value: 6.17.21310 (Or the current version)
-> Associated with a 32-bit app on 64-bit clients: No
+- Rule type: Registry
+- Key Path: HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Jabra\Direct
+- Value name: Version
+- Detection method: Version comparison
+- Operator: Greater than or equal to
+- Value: 6.17.21310 (Or the current version)
+- Associated with a 32-bit app on 64-bit clients: No
 
 ## Upgrading from an older Version
 > If you already have an older Version of Jabra packaged, user the Superscedence-Function to replace the old version
